@@ -18,7 +18,7 @@ The code solves the classical coupled problem of a steady, two-dimensional, inco
 ## Requirements & Installation
 
 * **Recommended Python version:** Python 3.10 or higher (tested on Python 3.11).
-* **Dependencies:** `numpy`, `matplotlib`, `pandas`.
+* **Dependencies:** `numpy`, `matplotlib`.
 
 ### Quick Installation
 
