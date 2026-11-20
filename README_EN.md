@@ -25,6 +25,6 @@ The code solves the classical coupled problem of a steady, two-dimensional, inco
 Clone this repository and install the required packages by running:
 
 ```bash
-git clone [https://github.com/tu-usuario/blasius-boundary-layer-rk4.git](https://github.com/tu-usuario/blasius-boundary-layer-rk4.git)
+git clone [https://github.com/Scienceeeee/blasius-boundary-layer-rk4.git](https://github.com/Scienceeeee/blasius-boundary-layer-rk4.git)
 cd blasius-boundary-layer-rk4
 pip install -r requirements.txt
