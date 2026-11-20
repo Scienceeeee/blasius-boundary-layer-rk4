@@ -3,7 +3,6 @@
 import matplotlib.pyplot as plt
 from matplotlib.ticker import AutoMinorLocator
 from numpy import array, arange, floor, ceil
-import pandas as pd
 import os
 
 # Parametros de la solucion para la ecuacion de Blasius
