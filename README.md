@@ -26,6 +26,6 @@ El programa resuelve el problema clásico acoplado de la capa límite laminar, b
 Clona este repositorio e instala las dependencias necesarias ejecutando:
 
 ```bash
-git clone [https://github.com/tu-usuario/blasius-boundary-layer-rk4.git](https://github.com/tu-usuario/blasius-boundary-layer-rk4.git)
+git clone [https://github.com/Scienceeeee/blasius-boundary-layer-rk4.git](https://github.com/Scienceeeee/blasius-boundary-layer-rk4.git)
 cd blasius-boundary-layer-rk4
 pip install -r requirements.txt
