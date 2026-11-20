@@ -19,7 +19,7 @@ El programa resuelve el problema clásico acoplado de la capa límite laminar, b
 ## Requisitos e Instalación
 
 * **Versión de Python recomendada:** Python 3.10 o superior (probado en Python 3.11).
-* **Dependencias:** `numpy`, `matplotlib`, `pandas`.
+* **Dependencias:** `numpy`, `matplotlib`.
 
 ### Instalación rápida
 
