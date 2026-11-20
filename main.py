@@ -21,11 +21,11 @@ max_iter_temp = 20
 
 # Metodo Newton-Raphson y guardado para t'(0)
 
-h_pr = 0.01 # Tamano de paso para el numero de Prandtl
+h_pr = 0.01 #   Incremento o tamano de paso para barrer el rango de números de Prandtl.
 Pr_max = 10  # Numero de Prandtl maximo
-Pr_max_perfil = 1 # Numero de Prandtl maximo para graficar perfiles
+Pr_max_perfil = 1 # Valor máximo del numero de Prandtl utilizado para graficar los perfiles espaciales de temperatura
 Pr = arange(h_pr, Pr_max + h_pr, h_pr) # Empieza en 0.01 para evitar Pr = 0
-tp = 0.2 # Semilla para t'(0)
+tp = 0.2 # Valor semilla (estimación inicial) para la derivada de la temperatura adimensional en la pared, t'(0), al iniciar el método de disparo
 tp_list = []
 
 # Direccion de guardado de datos
