@@ -272,12 +272,38 @@ plt.plot(Pr, dtp, color='red', linestyle='--', label=r"Aproximación de Pohlhaus
 plt.title(r"Aproximación vs Resultado numérico de $\theta'(0)$")
 plt.xlabel("Número de Prandtl, Pr")
 plt.ylabel(r"$\theta'(0)$")
+plt.xlim(0, 1)
+plt.ylim(0, 0.35)
+plt.grid(True, color="gray", alpha=0.4)
+plt.legend()
+plt.tight_layout()
+plt.savefig(os.path.join(ruta, 'Pr_vs_tp0.png'), dpi=300) # type: ignore
+plt.close()
+
+plt.plot(Pr, tp_list, color='green', label="Resultado numérico")
+plt.plot(Pr, dtp, color='red', linestyle='--', label=r"Aproximación de Pohlhausen ($0.332\,Pr^{1/3}$)")
+plt.title(r"Aproximación vs Resultado numérico de $\theta'(0)$")
+plt.xlabel("Número de Prandtl, Pr")
+plt.ylabel(r"$\theta'(0)$")
+plt.xlim(0.6, 5)
+plt.ylim(0)
+plt.grid(True, color="gray", alpha=0.4)
+plt.legend()
+plt.tight_layout()
+plt.savefig(os.path.join(ruta, 'Pr_vs_tp0_06eta5.png'), dpi=300) # type: ignore
+plt.close()
+
+plt.plot(Pr, tp_list, color='green', label="Resultado numérico")
+plt.plot(Pr, dtp, color='red', linestyle='--', label=r"Aproximación de Pohlhausen ($0.332\,Pr^{1/3}$)")
+plt.title(r"Aproximación vs Resultado numérico de $\theta'(0)$")
+plt.xlabel("Número de Prandtl, Pr")
+plt.ylabel(r"$\theta'(0)$")
 plt.xlim(0, Pr_max)
 plt.ylim(0)
 plt.grid(True, color="gray", alpha=0.4)
 plt.legend()
 plt.tight_layout()
-plt.savefig(os.path.join(ruta, 'Pr_vs_tp0.png'), dpi=300) # type: ignore
+plt.savefig(os.path.join(ruta, 'Pr_vs_tp0_06eta10.png'), dpi=300) # type: ignore
 plt.close()
 
 fig, ax = plt.subplots(figsize=(8, 5.5), dpi=300)
@@ -339,3 +365,4 @@ for pr_obj in [0.6, 1.0, 5.0]:
     plt.close(fig)
 
 print("Graficas guardadas exitosamente en:", ruta)
+
