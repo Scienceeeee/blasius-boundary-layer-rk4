@@ -13,17 +13,6 @@ ON A FLAT PLATE VIA THE SHOOTING METHOD AND FOURTH-ORDER RUNGE-KUTTA
 ================================================================================
 
 
-
-Autores / Authors:
-
-- Abed Gael Hinojosa Baez
-
-- Germán Reza Bass
-
-- Edoardo García Díaz
-
-
-
 --------------------------------------------------------------------------------
 
 [ESPAÑOL] INSTRUCCIONES DE USO
